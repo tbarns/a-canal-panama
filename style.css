@@ -12,7 +12,10 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
 }
-
+containter{
+  font-family: 'Sacramento', cursive;
+  font-size: 20px;
+}
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -34,6 +37,12 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  margin-left: 30px;
+}
+input {
+  font-family: 'Sacramento', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  
 }
 
 .hour {
@@ -69,3 +78,4 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
