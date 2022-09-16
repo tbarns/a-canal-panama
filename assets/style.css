@@ -15,8 +15,7 @@ textarea {
   padding: 10px;
 }
 containter{
-  font-family: 'Sacramento', cursive;
-  font-size: 20px;
+    font-size: 20px;
 }
 .jumbotron {
   text-align: center;
@@ -44,8 +43,7 @@ containter{
 }
 
 input {
-  font-family: 'Sacramento', cursive;
-  font-family: 'Shadows Into Light', cursive;
+ 
   color: white;
   
 }
