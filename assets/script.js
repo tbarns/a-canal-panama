@@ -19,27 +19,17 @@ for (let index = 0; index < timeBlocks.length; index++) {
     }
     //
 
-    if (currentTime == id) {
+    else if (currentTime == id) {
         $(timeBlocks).addClass("present");
     }
     //
 
-     if (currentTime > id) {
+     else if (currentTime > id) {
         $(timeBlocks).addClass("past");
     }
 
 }
 
-//dynamically create timeblocks for standard business hours
 
-//iterate thru all the text areas and compare thier id value to moments currnt time
-
-
-
-
-//ensure that timeblocks change depesding on the time of day
-
-//when we click timeclock it allows input
-
-//
+// save button send text area to local storage 
 
