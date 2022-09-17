@@ -14,9 +14,11 @@ textarea {
   border-left: 1px solid white;
   padding: 10px;
 }
-containter{
-    font-size: 20px;
+
+containter {
+  font-size: 20px;
 }
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -39,13 +41,13 @@ containter{
   height: 80px;
   border-top: 1px solid lightgray;
   margin-left: 30px;
-  
+
 }
 
 input {
- 
+
   color: white;
-  
+
 }
 
 .hour {
@@ -81,4 +83,3 @@ input {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
-
