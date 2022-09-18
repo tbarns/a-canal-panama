@@ -35,12 +35,13 @@ console.log(currentTime)
 
 function rowUpdater() {
     $(timeBlocks).each(function () {
-        console.log(this)
+
         var id = parseInt($(this).attr("id"));
-        console.log(id)
+
 
         if (currentTime > id) {
             $(this).addClass("past");
+            $(this).css("color", "black")
         }
         //
 
@@ -65,11 +66,11 @@ rowUpdater()
 $(".saveBtn").on("click", function () {
 
     var text = $(this).siblings("textarea").val()
-   var time = $(this).siblings("textarea").attr("id")
-     localStorage.setItem(time, text)
-   }
+    var time = $(this).siblings("textarea").attr("id")
+    localStorage.setItem(time, text)
+}
 )
-//this allows the value to persist in the correct key
+// //this allows the value to persist in the correct key upon refresh 
 $("#9").val(localStorage.getItem("9"))
 $("#10").val(localStorage.getItem("10"))
 $("#11").val(localStorage.getItem("11"))
