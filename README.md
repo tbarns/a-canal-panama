@@ -7,7 +7,8 @@ After working with my tutor I realized that not only did I need to parseInt the 
 
 
 ## Installation 
-
+link to live site
+https://tbarns.github.io/a-canal-panama/
 
 ## Usage 
 
